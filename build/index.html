@@ -5,18 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Creative Boilerplate</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <title>Cinema Dataviz</title>
 
     <!-- Webpack Magic -->
-    <link rel="stylesheet" href="stylesheet/main.css">
-</head>
+<link href="/stylesheet/main.css" rel="stylesheet"></head>
 
 <body>
-    <h1>Creative Boilerplate 2.0 !</h1>
-    <div id="container"></div>
+
+    <div id="canvas-overlay">
+        <h1 id="title"></h1>
+        <h2 id="subTitle"></h2>
+        <h3 id="info"></h3>
+    </div>
+    <div class="main-container">
+        <canvas class="main-canvas"></canvas>
+    </div>
 
     <!-- Webpack Magic -->
-    <script src="javascript/bundle.js"></script>
-</body>
+<script type="text/javascript" src="/javascript/bundle.js"></script></body>
 
 </html>
