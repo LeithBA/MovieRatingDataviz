@@ -15,7 +15,7 @@ document.body.appendChild(stats.dom);
 //SETUP
 const canvas = document.querySelector('.main-canvas')
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(20.4, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(20.4, window.innerWidth / window.innerHeight, 0.1, 100);
 const renderer = new THREE.WebGLRenderer({ canvas: canvas });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
